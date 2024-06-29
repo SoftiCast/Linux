@@ -179,26 +179,48 @@ umount - unmount a  file system
 sudo umount /mnt/usb
 ```
 date - display or set the system date and time
+```
+
 date
+```
 whoami - display the current user name
+```
 whoami
+```
 which - locate a program or command in the system path
+```
 ls
+```
 finger - displays all the information about user
+```
 finger harry
+```
 uname - display system information
+```
 uname
+
 uname -a
+```
 history - display a  list of previously executed commands
+```
 history
+```
 echo - display text or variables to the console
+```
 echo 'I need Tshirt from codeswear!'
+```
 tee - redirect output to both a file and the console
+```
 $ ls | tee file.txt
+```
 locate - locate any file on the system
+```
 locate file.txt
+```
 sort - sort lines of text in a file or input
+```
 cat file.txt
+
 banana
 orange
 apple
@@ -206,7 +228,9 @@ sort file.txt
 apple
 banana
 orange
+```
 uniq - remove duplicate lines from a file or input
+```
 cat file.txt
 apple
 orange
@@ -217,9 +241,12 @@ uniq file.txt
 apple
 orange
 banana
+```
 head/tail - display the first/last few lines of a file or input
+```
 #display first 10 lines
 head file.txt
 
 #display last 10 lines
 tail file.txt
+```
